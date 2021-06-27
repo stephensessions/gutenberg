@@ -74,4 +74,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+define( 'CONCATENATE_SCRIPTS', false );
+define( 'SCRIPT_DEBUG', true );
 require_once ABSPATH . 'wp-settings.php';
